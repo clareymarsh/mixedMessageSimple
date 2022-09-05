@@ -1,17 +1,12 @@
-//potential options for holiday
-
 let friend = ["Lucy", "Mark", "Charlie", "Katie"]; 
 let duration = [7, 10]; 
 let location = ["Paris", "Rome", "Queenstown", "Bali", "Lisbon"]
 
-//helper function to generate a random array output
 
 let random = arr => {
     let i = Math.floor(Math.random() * arr.length)
     return arr[i] 
 }
-
-//anonymous functon returning random response
 
 const holidayGen = () => {
     let friend1 = random(friend); 
